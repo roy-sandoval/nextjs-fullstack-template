@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Button from '../components/ui/Button';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <main>
         <div>
           <h1 className="text-red-500 underline">Hi</h1>
+          <Button />
         </div>
       </main>
     </div>
